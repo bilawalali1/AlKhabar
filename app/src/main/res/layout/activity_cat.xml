@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/epaper1"
+    tools:context="com.example.bilaw.alkhabar.NewsPaperActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="#ffffff"
+
+            android:text="AL-KHABAR"
+            android:textSize="70dp"
+            android:background="#000000"
+
+            android:layout_marginTop="-1dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/BTN1" />
+
+        <Button
+            android:textColor="#000000"
+
+            android:text="Polictics"
+            android:textSize="30dp"
+
+            android:layout_marginTop="500dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/BTN7" />
+        <Button
+
+            android:background="#000000"
+            android:layout_width="900dp"
+            android:layout_height="20dp"
+            android:id="@+id/BTN4"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:textColor="#000000"
+
+            android:text="Buisness"
+            android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/BTN3"
+            android:layout_below="@+id/BTN2"
+            android:layout_alignStart="@+id/BTN5" />
+
+        <Button
+        android:textColor="#000000"
+
+        android:text="Entertainment"
+        android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+            android:id="@+id/BTN5"
+            android:layout_below="@+id/BTN3"
+            android:layout_alignStart="@+id/BTN6" />
+
+        <Button
+            android:textColor="#000000"
+
+            android:text="National"
+            android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/BTN2"
+            android:onClick="SelectPaper"
+            android:layout_marginTop="42dp"
+            android:layout_below="@+id/BTN1"
+            android:layout_alignStart="@+id/BTN3" />
+
+        <Button
+            android:textColor="#000000"
+
+            android:text="Polictics"
+            android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/BTN6"
+            android:layout_below="@+id/BTN5"
+            android:layout_alignStart="@+id/BTN8" />
+
+        <Button
+            android:textColor="#000000"
+
+            android:text="Sports"
+            android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/BTN8"
+            android:layout_below="@+id/BTN6"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
